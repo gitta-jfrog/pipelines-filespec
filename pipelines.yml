@@ -10,7 +10,7 @@ pipelines:
     steps:
       - name: ArtifactoryFiles
         type: Bash
-        configurations:
+        configuration:
           inputResources:
             - name: GetFiles
         execution:
