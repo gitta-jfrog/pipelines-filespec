@@ -2,7 +2,7 @@ resources:
   - name: GetFiles
     type: FileSpec
     configuration:
-      sourceArtifactory: MyArtifactory
+      sourceArtifactory: myArtifactory
       aql: items.find({"repo":"docker-local"})
     
 pipelines:
