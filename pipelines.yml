@@ -15,6 +15,7 @@ pipelines:
             - name: GetFiles
         execution:
           onExecute:
+            - cat $HOME/.jfrog/logs/jfrog-cli*
             - ls
      
       
