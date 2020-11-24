@@ -3,7 +3,7 @@ resources:
     type: FileSpec
     configuration:
       sourceArtifactory: myArtifactory
-      aql: items.find({"repo":"docker-local"})
+      aql: "repo":"docker-local"
     
 pipelines:
   - name: PropertyDemo
